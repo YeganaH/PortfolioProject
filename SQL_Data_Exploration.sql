@@ -21,7 +21,17 @@
 --      ,[price_detail__price_string]
 --  FROM [PortfolioProject].[dbo].[Udemy]
 
-------Portfolio Project------
+------Portfolio Project. SQL Data Exploration------
+
+--Skills used:
+--1. SQL programming: The project involves writing SQL queries to extract, manipulate, and analyze data from a relational database.
+--2. Data exploration and analysis: The project involves performing data exploration and analysis to gain insights into the Udemy dataset.
+--3. Database design: The project involves creating tables and views to organize and present the data in a structured format.
+--4. Data cleaning: The project involves cleaning and filtering the data to remove duplicates, missing values, and irrelevant records.
+--5. Data visualization: The project mentions creating views for future data visualizations in Tableau.
+--6. Data reporting: The project involves summarizing and presenting the findings in a clear and concise manner.
+--7. Problem solving: The project involves identifying data quality issues, designing solutions, and optimizing SQL queries to address business questions.
+
 --1. What is the total number of courses in the dataset?
 SELECT COUNT(*) as total_courses
 FROM Udemy;
